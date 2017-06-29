@@ -2,6 +2,25 @@
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+}
+
+.header-content {
+	display: flex;
+	flex-direction: column;
+	margin:	100px;
 }
 body {
+
+}
+.header-links {
+	display:flex;
+	list-style: none;
+
+} 
+a {
+	text-decoration: none;
+	color: black;
 }
